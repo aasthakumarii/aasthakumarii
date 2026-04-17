@@ -1,59 +1,175 @@
-# Hi, I'm Aastha 👋
+# Hi there, I'm Aastha! 👋
 
-🚀 Aspiring DevOps Engineer | Cloud & Automation Enthusiast
+## 🚀 Cloud Engineering Student | AWS | DevOps | Terraform
 
----
+3rd-year Computer Science student at VIT Bhopal specializing in Cloud Computing and Automation. I build scalable cloud-native applications and automate everything that can be automated.
 
-## 🔧 Tech Stack
-
-* **Cloud:** AWS
-* **DevOps:** Docker, GitHub Actions, CI/CD
-* **IaC:** Terraform
-* **Backend:** Node.js
-* **Tools:** Git, Linux
+Currently looking for **DevOps/Cloud Engineering internship opportunities** for Summer 2026.
 
 ---
 
-## 🚀 Projects
+## 💻 What I'm Working On
 
-### 🔹 DevOps Pipeline Project
-
-* Built CI/CD pipeline using GitHub Actions
-* Dockerized application
-* Automated build & deployment
-
-### 🔹 Crowd Monitoring System
-
-* Cloud-based system using AWS services
-* Event-driven architecture
+- 🔭 Building a **UAV-Assisted Crowd Monitoring System** with AWS IoT Core, Lambda, and DynamoDB
+- 🌱 Learning **Kubernetes** and **Docker** for container orchestration
+- 👯 Open to collaborate on **cloud infrastructure** and **automation** projects
+- 💬 Ask me about **AWS, Terraform, CI/CD pipelines**
+- ⚡ Fun fact: I automated my portfolio deployment so well that it deploys before I finish my commit message
 
 ---
 
-## 📈 What I'm working on
+## 🛠️ Tech Stack
 
-* Improving CI/CD pipelines
-* Learning Kubernetes
-* Building production-ready systems
+**Cloud & DevOps**
+```
+☁️ AWS         ⚙️ Terraform      🔄 GitHub Actions    🐳 Docker (Learning)
+📊 CloudWatch  🔐 IAM           📦 CI/CD Pipelines   
+```
+
+**Programming**
+```
+☕ Java        🐍 Python        ⚙️ C++        
+```
+
+**Web Development**
+```
+⚛️ React       🟢 Node.js       🍃 MongoDB       🔥 Firebase
+🎨 HTML/CSS    📡 REST APIs     
+```
+
+**Tools**
+```
+🐙 Git         🐱 GitHub        💻 VS Code       🖥️ Linux
+```
 
 ---
 
-## 📫 Connect with me
+## 🏆 Featured Projects
 
-* LinkedIn: (add link)
-* Email: (optional)
+### [UAV-Assisted Crowd Monitoring System](https://github.com/aasthakumarii/uav-crowd-monitoring)
+> Real-time serverless architecture for processing drone telemetry data
+
+- **Tech:** AWS IoT Core, Lambda, DynamoDB, SNS, Python
+- **Scale:** Processes 50K+ IoT events/hour with <100ms latency
+- **Features:** Automated alerting, cost-optimized DynamoDB design, real-time dashboard
+- **Impact:** 60% cost reduction through strategic GSI design
+
+### [DevOps Portfolio with CI/CD](https://github.com/aasthakumarii/devops-portfolio)
+> Self-deploying portfolio website demonstrating infrastructure automation
+
+- **Tech:** Terraform, GitHub Actions, AWS S3, CloudFront, CloudWatch
+- **Features:** Infrastructure as Code, automated deployments, CDN distribution, monitoring
+- **Cost:** Optimized to < $5/month on AWS free tier
+- **Learning:** Complete DevOps lifecycle from code to production
+
+### [RecipeCraft - MERN Stack App](https://github.com/aasthakumarii/Recipe-Craft)
+> Full-stack recipe recommendation application
+
+- **Tech:** MongoDB, Express, React, Node.js, Firebase Auth
+- **Features:** User authentication, external API integration, responsive design
+- **Deployment:** AWS EC2 with 99.9% uptime
+- **Users:** Successfully tested with 100+ concurrent users
+
+---
+
+## 📊 GitHub Stats
+
+![Aastha's GitHub stats](https://github-readme-stats.vercel.app/api?username=aasthakumarii&show_icons=true&theme=radical)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aasthakumarii&layout=compact&theme=radical)
+
+---
+
+## 🎓 Education
+
+**B.Tech in Computer Science Engineering** (Cloud Computing and Automation)  
+VIT Bhopal University | 2023 - 2027 | CGPA: 8.74/10
+
+**Relevant Coursework:**  
+Cloud Computing, Data Structures, Operating Systems, Computer Networks, Database Management
+
+---
+
+## 📜 Certifications
+
+- 🥈 **NPTEL Java Programming** - Silver Certificate (Top 1%)
+- 🥈 **NPTEL Introduction to IoT** - Silver Certificate
+- ☁️ **AWS Cloud Fundamentals** - Coursera
+- 📚 Currently pursuing: **AWS Solutions Architect Associate**
+
+---
+
+## 📈 What I'm Learning Next
+
+- 🎯 Kubernetes & Container Orchestration
+- 🎯 Advanced Terraform (Modules, Workspaces, Remote State)
+- 🎯 GitOps with ArgoCD
+- 🎯 Service Mesh (Istio)
+- 🎯 Infrastructure Monitoring (Prometheus, Grafana)
+
+---
+
+## 🎯 Career Goals
+
+**Immediate:** Secure a DevOps/Cloud Engineering internship where I can work on real-world infrastructure challenges and learn from experienced teams.
+
+**Long-term:** Become a cloud architect designing and implementing scalable, cost-effective infrastructure for high-traffic applications.
+
+---
+
+## 💼 Open to Opportunities
+
+I'm actively seeking **Summer 2026 internships** in:
+- ☁️ Cloud Engineering
+- ⚙️ DevOps Engineering
+- 🏗️ Site Reliability Engineering (SRE)
+- 🔧 Platform Engineering
+- 💻 Backend Development (with cloud focus)
+
+**What I bring:**
+- Hands-on experience with AWS and infrastructure automation
+- Strong problem-solving and debugging skills
+- Fast learner with proven ability to pick up new technologies
+- Collaborative mindset and excellent communication
+- Passion for building reliable, scalable systems
+
+---
+
+## 📫 Let's Connect!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aastha-kumari-ak)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aasthakumari.0105@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aasthakumarii)
+
+**📧 Email:** aasthakumari.0105@gmail.com  
+**📱 Phone:** +91 8660629127  
+**📍 Location:** Bhopal, India
 
 
-<!--
-**aasthakumarii/aasthakumarii** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🌟 Fun Facts
 
-Here are some ideas to get you started:
+- ☁️ I've processed more IoT events than there are people in my hometown
+- 🤖 I automate my breakfast routine... kidding (or am I?)
+- 📚 Currently reading: "The Phoenix Project" by Gene Kim
+- 💭 Favorite quote: "Infrastructure as code is not about the infrastructure, it's about the code."
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+## 🤝 Let's Collaborate!
+
+I'm always open to:
+- 💡 Collaborating on open-source cloud/DevOps projects
+- 🎓 Helping fellow students with AWS and Terraform
+- 🎤 Speaking at tech meetups or webinars
+- 💬 Discussing cloud architecture and best practices
+
+Feel free to reach out if you want to build something cool together!
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=aasthakumarii&color=blueviolet" alt="Profile Views">
+</p>
+
+<p align="center">
+  ⭐️ From <a href="https://github.com/aasthakumarii">aasthakumarii</a> | Built with ❤️ and ☁️
+</p>
