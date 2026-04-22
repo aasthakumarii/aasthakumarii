@@ -10,11 +10,9 @@ Currently looking for **DevOps/Cloud Engineering internship opportunities** for 
 
 ## 💻 What I'm Working On
 
-- 🔭 Building a **UAV-Assisted Crowd Monitoring System** with AWS IoT Core, Lambda, and DynamoDB
 - 🌱 Learning **Kubernetes** and **Docker** for container orchestration
 - 👯 Open to collaborate on **cloud infrastructure** and **automation** projects
 - 💬 Ask me about **AWS, Terraform, CI/CD pipelines**
-- ⚡ Fun fact: I automated my portfolio deployment so well that it deploys before I finish my commit message
 
 ---
 
@@ -53,14 +51,6 @@ Currently looking for **DevOps/Cloud Engineering internship opportunities** for 
 - **Scale:** Processes 50K+ IoT events/hour with <100ms latency
 - **Features:** Automated alerting, cost-optimized DynamoDB design, real-time dashboard
 - **Impact:** 60% cost reduction through strategic GSI design
-
-### [DevOps Portfolio with CI/CD](https://github.com/aasthakumarii/devops-portfolio)
-> Self-deploying portfolio website demonstrating infrastructure automation
-
-- **Tech:** Terraform, GitHub Actions, AWS S3, CloudFront, CloudWatch
-- **Features:** Infrastructure as Code, automated deployments, CDN distribution, monitoring
-- **Cost:** Optimized to < $5/month on AWS free tier
-- **Learning:** Complete DevOps lifecycle from code to production
 
 ### [RecipeCraft - MERN Stack App](https://github.com/aasthakumarii/Recipe-Craft)
 > Full-stack recipe recommendation application
