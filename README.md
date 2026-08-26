@@ -47,7 +47,7 @@ Currently working as a **DevOps Intern at CloudNexus**, and **available for imme
 
 ## 🏆 Featured Projects
 
-### [Bazar – Kubernetes GitOps Deployment](https://github.com/aasthakumarii)
+### [Bazar – Kubernetes GitOps Deployment](https://github.com/aasthakumarii/Bazar_Kubernetes-GitOps-Deployment)
 > Flask-based microservices app extended into a full Kubernetes GitOps deployment
 
 - **Tech:** Docker, Helm, Kind, Jenkins, Argo CD
@@ -55,7 +55,7 @@ Currently working as a **DevOps Intern at CloudNexus**, and **available for imme
 - **Scaling:** HPA (1–5 replicas @ 60% CPU target), VPA recommendation mode, Metrics Server
 - **Impact:** ~40% reduction in manual release effort
 
-### [Azure Three-Tier Student Registration Platform](https://github.com/aasthakumarii)
+### [Azure Three-Tier Student Registration Platform](https://github.com/aasthakumarii/azure-student-registration)
 > Three-tier application deployed on Azure AKS with modular Terraform infrastructure
 
 - **Tech:** Docker, Kubernetes, NGINX Ingress, Azure Database for PostgreSQL
@@ -63,7 +63,7 @@ Currently working as a **DevOps Intern at CloudNexus**, and **available for imme
 - **Automation:** GitHub Actions + Helm with versioned images and 1–3 node autoscaling
 - **Impact:** ~90% reduction in manual provisioning effort
 
-### [FormChat – DevSecOps CI/CD Automation](https://github.com/aasthakumarii)
+### [FormChat – DevSecOps CI/CD Automation](https://gitlab.com/form-chat)
 > 7-stage GitLab CI/CD pipeline with full DevSecOps tooling
 
 - **Tech:** SonarQube, Snyk, Trivy, StackHawk, JFrog Artifactory
