@@ -1,64 +1,81 @@
 # Hi there, I'm Aastha! 👋
 
-## 🚀 Cloud Engineering Student | AWS | DevOps | Terraform
+## 🚀 DevOps Intern @ CloudNexus | Cloud Computing | Kubernetes | DevSecOps
 
-3rd-year Computer Science student at VIT Bhopal specializing in Cloud Computing and Automation. I build scalable cloud-native applications and automate everything that can be automated.
+Final-year Computer Science student at VIT Bhopal specializing in Cloud Computing and Automation. I build and automate scalable, cloud-native infrastructure — from CI/CD pipelines to Kubernetes GitOps deployments.
 
-Currently looking for **DevOps/Cloud Engineering internship opportunities** for Summer 2026.
+Currently working as a **DevOps Intern at CloudNexus**, and **available for immediate full-time employment**.
 
 ---
 
 ## 💻 What I'm Working On
 
-- 🌱 Learning **Kubernetes** and **Docker** for container orchestration
-- 👯 Open to collaborate on **cloud infrastructure** and **automation** projects
-- 💬 Ask me about **AWS, Terraform, CI/CD pipelines**
+- 💼 Building CI/CD pipelines and DevSecOps workflows at **CloudNexus**
+- 🌱 Deepening my knowledge of **Argo CD, Helm, and Kubernetes autoscaling**
+- 👯 Open to collaborate on **cloud infrastructure**, **GitOps**, and **DevSecOps** projects
+- 💬 Ask me about **AWS, Azure, Terraform, Kubernetes, CI/CD pipelines**
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Cloud & DevOps**
+**Cloud & Infrastructure**
 ```
-☁️ AWS         ⚙️ Terraform      🔄 GitHub Actions    🐳 Docker (Learning)
-📊 CloudWatch  🔐 IAM           📦 CI/CD Pipelines   
-```
-
-**Programming**
-```
-☕ Java        🐍 Python        ⚙️ C++        
+☁️ AWS (EC2, EKS, ECR, S3, IAM, VPC)   ☁️ Azure (AKS, ACR, VNet)
+⚙️ Terraform                           🔧 Ansible
 ```
 
-**Web Development**
+**DevOps**
 ```
-⚛️ React       🟢 Node.js       🍃 MongoDB       🔥 Firebase
-🎨 HTML/CSS    📡 REST APIs     
+🐳 Docker         ☸️ Kubernetes      📦 Helm          🔄 Argo CD (GitOps)
+🔁 GitHub Actions 🦊 GitLab CI/CD    🏗️ Jenkins
 ```
 
-**Tools**
+**DevSecOps & Observability**
 ```
-🐙 Git         🐱 GitHub        💻 VS Code       🖥️ Linux
+🔍 SonarQube      🛡️ Snyk           🔒 Trivy          🦅 StackHawk
+📦 JFrog Artifactory   📊 Prometheus   📈 Grafana
+```
+
+**Programming & Systems**
+```
+☕ Java    🐍 Python    🐹 Go (Basics)    🐧 Linux    🖥️ Bash
+🐙 Git     🗄️ PostgreSQL   📡 Networking
 ```
 
 ---
 
 ## 🏆 Featured Projects
 
+### [Bazar – Kubernetes GitOps Deployment](https://github.com/aasthakumarii)
+> Flask-based microservices app extended into a full Kubernetes GitOps deployment
+
+- **Tech:** Docker, Helm, Kind, Jenkins, Argo CD
+- **Features:** Jenkins CI pipeline with BUILD_NUMBER-based image versioning and automated Helm updates
+- **Scaling:** HPA (1–5 replicas @ 60% CPU target), VPA recommendation mode, Metrics Server
+- **Impact:** ~40% reduction in manual release effort
+
+### [Azure Three-Tier Student Registration Platform](https://github.com/aasthakumarii)
+> Three-tier application deployed on Azure AKS with modular Terraform infrastructure
+
+- **Tech:** Docker, Kubernetes, NGINX Ingress, Azure Database for PostgreSQL
+- **Infra:** VNet, AKS, ACR, PostgreSQL, RBAC, Log Analytics via modular Terraform
+- **Automation:** GitHub Actions + Helm with versioned images and 1–3 node autoscaling
+- **Impact:** ~90% reduction in manual provisioning effort
+
+### [FormChat – DevSecOps CI/CD Automation](https://github.com/aasthakumarii)
+> 7-stage GitLab CI/CD pipeline with full DevSecOps tooling
+
+- **Tech:** SonarQube, Snyk, Trivy, StackHawk, JFrog Artifactory
+- **Pipeline:** Testing, code quality, dependency scanning, container builds, security scanning, deployment, DAST
+- **Extras:** JaCoCo/Vitest coverage reports, versioned delivery to AWS EC2
+
 ### [UAV-Assisted Crowd Monitoring System](https://github.com/aasthakumarii/uav-crowd-monitoring)
 > Real-time serverless architecture for processing drone telemetry data
 
 - **Tech:** AWS IoT Core, Lambda, DynamoDB, SNS, Python
 - **Scale:** Processes 50K+ IoT events/hour with <100ms latency
-- **Features:** Automated alerting, cost-optimized DynamoDB design, real-time dashboard
 - **Impact:** 60% cost reduction through strategic GSI design
-
-### [RecipeCraft - MERN Stack App](https://github.com/aasthakumarii/Recipe-Craft)
-> Full-stack recipe recommendation application
-
-- **Tech:** MongoDB, Express, React, Node.js, Firebase Auth
-- **Features:** User authentication, external API integration, responsive design
-- **Deployment:** AWS EC2 with 99.9% uptime
-- **Users:** Successfully tested with 100+ concurrent users
 
 ---
 
@@ -70,58 +87,56 @@ Currently looking for **DevOps/Cloud Engineering internship opportunities** for 
 
 ---
 
+## 💼 Experience
+
+**DevOps Intern**, CloudNexus — *May 2026 – Present*
+- Built CI/CD pipelines (GitLab CI/CD, GitHub Actions) for automated testing, image builds, security scanning, and deployments — cutting manual release effort by ~40%
+- Implemented DevSecOps workflows using SonarQube, Snyk, Trivy, StackHawk, and JFrog Artifactory
+- Provisioned AWS infrastructure with Terraform and Ansible (VPC, IAM, EC2, ECR) — cutting infra setup effort by ~50%
+- Managed Kubernetes workloads with Docker, Helm, Argo CD, Ingress, RBAC, HPA, and VPA, with Prometheus/Grafana observability
+
+---
+
 ## 🎓 Education
 
-**B.Tech in Computer Science Engineering** (Cloud Computing and Automation)  
-VIT Bhopal University | 2023 - 2027 | CGPA: 8.74/10
+**B.Tech in Computer Science Engineering** (Cloud Computing and Automation)
+VIT Bhopal University | 2023 – 2027 | CGPA: 8.65/10
 
-**Relevant Coursework:**  
-Cloud Computing, Data Structures, Operating Systems, Computer Networks, Database Management
+**Class XII (HSC)** – PCM + Computer Science
+Kendriya Vidyalaya, Noida | 2022 – 2023 | 81%
 
 ---
 
 ## 📜 Certifications
 
-- 🥈 **NPTEL Java Programming** - Silver Certificate (Top 1%)
-- 🥈 **NPTEL Introduction to IoT** - Silver Certificate
-- ☁️ **AWS Cloud Fundamentals** - Coursera
-- 📚 Currently pursuing: **AWS Solutions Architect Associate**
-
----
-
-## 📈 What I'm Learning Next
-
-- 🎯 Kubernetes & Container Orchestration
-- 🎯 Advanced Terraform (Modules, Workspaces, Remote State)
-- 🎯 GitOps with ArgoCD
-- 🎯 Service Mesh (Istio)
-- 🎯 Infrastructure Monitoring (Prometheus, Grafana)
+- ☁️ **AWS Certified Cloud Practitioner** – In Progress
+- 🥈 **NPTEL Java Programming** – Top 1%, Silver Medal
 
 ---
 
 ## 🎯 Career Goals
 
-**Immediate:** Secure a DevOps/Cloud Engineering internship where I can work on real-world infrastructure challenges and learn from experienced teams.
+**Immediate:** Available for **full-time roles** in DevOps/Cloud Engineering, contributing to real-world infrastructure and DevSecOps challenges from day one.
 
-**Long-term:** Become a cloud architect designing and implementing scalable, cost-effective infrastructure for high-traffic applications.
+**Long-term:** Become a cloud architect designing and implementing scalable, secure, cost-effective infrastructure for high-traffic applications.
 
 ---
 
 ## 💼 Open to Opportunities
 
-I'm actively seeking **Summer 2026 internships** in:
-- ☁️ Cloud Engineering
+Actively open to **full-time roles** in:
 - ⚙️ DevOps Engineering
+- ☁️ Cloud Engineering
 - 🏗️ Site Reliability Engineering (SRE)
 - 🔧 Platform Engineering
-- 💻 Backend Development (with cloud focus)
+- 🛡️ DevSecOps
 
 **What I bring:**
-- Hands-on experience with AWS and infrastructure automation
+- Real-world experience shipping CI/CD, Kubernetes, and DevSecOps pipelines
+- Hands-on with both AWS and Azure infrastructure automation
 - Strong problem-solving and debugging skills
-- Fast learner with proven ability to pick up new technologies
-- Collaborative mindset and excellent communication
-- Passion for building reliable, scalable systems
+- Fast learner with a track record of picking up new tooling quickly
+- Collaborative mindset and clear communication
 
 ---
 
@@ -131,10 +146,11 @@ I'm actively seeking **Summer 2026 internships** in:
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aasthakumari.0105@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aasthakumarii)
 
-**📧 Email:** aasthakumari.0105@gmail.com  
-**📱 Phone:** +91 8660629127  
+**📧 Email:** aasthakumari.0105@gmail.com
+**📱 Phone:** +91 8660629127
 **📍 Location:** Bhopal, India
 
+---
 
 ## 🌟 Fun Facts
 
@@ -143,14 +159,15 @@ I'm actively seeking **Summer 2026 internships** in:
 - 📚 Currently reading: "The Phoenix Project" by Gene Kim
 - 💭 Favorite quote: "Infrastructure as code is not about the infrastructure, it's about the code."
 
+---
 
 ## 🤝 Let's Collaborate!
 
 I'm always open to:
-- 💡 Collaborating on open-source cloud/DevOps projects
-- 🎓 Helping fellow students with AWS and Terraform
+- 💡 Collaborating on open-source cloud/DevOps/DevSecOps projects
+- 🎓 Helping fellow students with AWS, Azure, and Kubernetes
 - 🎤 Speaking at tech meetups or webinars
-- 💬 Discussing cloud architecture and best practices
+- 💬 Discussing cloud architecture and platform engineering best practices
 
 Feel free to reach out if you want to build something cool together!
 
