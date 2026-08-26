@@ -4,7 +4,7 @@
 
 Final-year Computer Science student at VIT Bhopal specializing in Cloud Computing and Automation. I build and automate scalable, cloud-native infrastructure — from CI/CD pipelines to Kubernetes GitOps deployments.
 
-Currently working as a **DevOps Intern at CloudNexus**, and **available for immediate full-time employment**.
+Currently working as a **DevOps Intern at CloudNexus**.
 
 ---
 
