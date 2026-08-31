@@ -1,19 +1,20 @@
 # Hi there, I'm Aastha! 👋
 
-## 🚀 DevOps Intern @ CloudNexus | Cloud Computing | Kubernetes | DevSecOps
+## 🚀 DevOps Intern @ CloudNexus | Cloud • Kubernetes • DevSecOps
 
-Final-year Computer Science student at VIT Bhopal specializing in Cloud Computing and Automation. I build and automate scalable, cloud-native infrastructure — from CI/CD pipelines to Kubernetes GitOps deployments.
+Final-year Computer Science student at VIT Bhopal, specializing in Cloud Computing and Automation. I like taking things from "runs on my laptop" to production — CI/CD pipelines, Kubernetes clusters, GitOps workflows, and the security tooling that keeps it all honest.
 
-Currently working as a **DevOps Intern at CloudNexus**.
+Currently a **DevOps Intern at CloudNexus**, working across CI/CD, DevSecOps, and Kubernetes platform engineering.
 
 ---
 
 ## 💻 What I'm Working On
 
-- 💼 Building CI/CD pipelines and DevSecOps workflows at **CloudNexus**
-- 🌱 Deepening my knowledge of **Argo CD, Helm, and Kubernetes autoscaling**
-- 👯 Open to collaborate on **cloud infrastructure**, **GitOps**, and **DevSecOps** projects
-- 💬 Ask me about **AWS, Azure, Terraform, Kubernetes, CI/CD pipelines**
+- 🔧 Shipping CI/CD pipelines and DevSecOps workflows at **CloudNexus**
+- ☸️ Getting deeper into **Kubernetes Operators, CRDs, and self-hosted GitLab runners**
+- 🌱 Exploring **service mesh (Istio)** and advanced Argo CD patterns
+- 👯 Open to collaborating on cloud infra, GitOps, and DevSecOps projects
+- 💬 Ask me about **AWS, Azure, Terraform, Kubernetes, or CI/CD pipelines**
 
 ---
 
@@ -25,21 +26,21 @@ Currently working as a **DevOps Intern at CloudNexus**.
 ⚙️ Terraform                           🔧 Ansible
 ```
 
-**DevOps**
+**DevOps & Platform**
 ```
 🐳 Docker         ☸️ Kubernetes      📦 Helm          🔄 Argo CD (GitOps)
-🔁 GitHub Actions 🦊 GitLab CI/CD    🏗️ Jenkins
+🔁 GitHub Actions 🦊 GitLab CI/CD    🏗️ Jenkins       🧩 CRDs & Operators
 ```
 
 **DevSecOps & Observability**
 ```
-🔍 SonarQube      🛡️ Snyk           🔒 Trivy          🦅 StackHawk
+🔍 SonarQube   🛡️ Snyk   🔒 Trivy   🦅 StackHawk   🕵️ OWASP ZAP
 📦 JFrog Artifactory   📊 Prometheus   📈 Grafana
 ```
 
 **Programming & Systems**
 ```
-☕ Java    🐍 Python    🐹 Go (Basics)    🐧 Linux    🖥️ Bash
+☕ Java    🐍 Python (boto3)    🐹 Go (Basics)    🐧 Linux    🖥️ Bash
 🐙 Git     🗄️ PostgreSQL   📡 Networking
 ```
 
@@ -47,53 +48,47 @@ Currently working as a **DevOps Intern at CloudNexus**.
 
 ## 🏆 Featured Projects
 
+### [python-eks-gitops](https://github.com/aasthakumarii/python-eks-gitops)
+> A production-style GitOps platform: Flask app → EKS, with automated rollback baked in
+
+- **Tech:** Python, Flask, Terraform, Amazon EKS, Argo CD, GitHub Actions, ECR
+- **Pipeline:** pytest → Bandit SAST → Docker build → Trivy scan → OIDC-authenticated push to ECR → GitOps manifest update → Argo CD sync
+- **Reliability:** Post-deploy health/version checks trigger an automatic Git-based rollback if a release fails verification — no manual `kubectl rollout undo`
+- **Security:** GitHub OIDC (no long-lived AWS keys), least-privilege IAM roles, EKS API locked to a single admin `/32`, hardened pods (non-root, read-only rootfs, dropped capabilities, seccomp)
+- **Exposure:** HTTPS via ALB + Route 53 + ACM, with a wildcard cert and full DNS validation
+- **Cost-aware:** Node group can scale to zero and back up on demand — validated end-to-end
+
 ### [Bazar – Kubernetes GitOps Deployment](https://github.com/aasthakumarii/Bazar_Kubernetes-GitOps-Deployment)
-> Flask-based microservices app extended into a full Kubernetes GitOps deployment
+> A Flask microservices app taken from Docker Compose to a full GitOps deployment
 
 - **Tech:** Docker, Helm, Kind, Jenkins, Argo CD
-- **Features:** Jenkins CI pipeline with BUILD_NUMBER-based image versioning and automated Helm updates
-- **Scaling:** HPA (1–5 replicas @ 60% CPU target), VPA recommendation mode, Metrics Server
-- **Impact:** ~40% reduction in manual release effort
+- **Pipeline:** Jenkins builds and publishes SHA-versioned images, then updates Helm values automatically
+- **Scaling:** HPA (1–5 replicas @ 60% CPU) alongside VPA in recommendation mode, driven by Metrics Server
 
-### [Azure Three-Tier Student Registration Platform](https://github.com/aasthakumarii/azure-student-registration)
-> Three-tier application deployed on Azure AKS with modular Terraform infrastructure
+### [Azure Three-Tier Student Registration Platform](https://github.com/aasthakumarii/azure-three-tier-devops)
+> A three-tier app on AKS, provisioned end-to-end with modular Terraform
 
 - **Tech:** Docker, Kubernetes, NGINX Ingress, Azure Database for PostgreSQL
-- **Infra:** VNet, AKS, ACR, PostgreSQL, RBAC, Log Analytics via modular Terraform
-- **Automation:** GitHub Actions + Helm with versioned images and 1–3 node autoscaling
-- **Impact:** ~90% reduction in manual provisioning effort
-
-### [FormChat – DevSecOps CI/CD Automation](https://gitlab.com/form-chat)
-> 7-stage GitLab CI/CD pipeline with full DevSecOps tooling
-
-- **Tech:** SonarQube, Snyk, Trivy, StackHawk, JFrog Artifactory
-- **Pipeline:** Testing, code quality, dependency scanning, container builds, security scanning, deployment, DAST
-- **Extras:** JaCoCo/Vitest coverage reports, versioned delivery to AWS EC2
+- **Infra:** VNet, AKS, ACR, PostgreSQL, RBAC, Log Analytics — all as reusable Terraform modules
+- **Delivery:** GitHub Actions + Helm, with ACR-integrated versioned images and 1–3 node autoscaling
 
 ### [UAV-Assisted Crowd Monitoring System](https://github.com/aasthakumarii/uav-crowd-monitoring)
-> Real-time serverless architecture for processing drone telemetry data
+> Serverless pipeline for processing real-time drone telemetry
 
 - **Tech:** AWS IoT Core, Lambda, DynamoDB, SNS, Python
-- **Scale:** Processes 50K+ IoT events/hour with <100ms latency
-- **Impact:** 60% cost reduction through strategic GSI design
-
----
-
-## 📊 GitHub Stats
-
-![Aastha's GitHub stats](https://github-readme-stats.vercel.app/api?username=aasthakumarii&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aasthakumarii&layout=compact&theme=radical)
+- **Scale:** 50K+ IoT events/hour at <100ms latency
+- **Impact:** 60% cost reduction through strategic DynamoDB GSI design
 
 ---
 
 ## 💼 Experience
 
 **DevOps Intern**, CloudNexus — *May 2026 – Present*
-- Built CI/CD pipelines (GitLab CI/CD, GitHub Actions) for automated testing, image builds, security scanning, and deployments — cutting manual release effort by ~40%
-- Implemented DevSecOps workflows using SonarQube, Snyk, Trivy, StackHawk, and JFrog Artifactory
-- Provisioned AWS infrastructure with Terraform and Ansible (VPC, IAM, EC2, ECR) — cutting infra setup effort by ~50%
-- Managed Kubernetes workloads with Docker, Helm, Argo CD, Ingress, RBAC, HPA, and VPA, with Prometheus/Grafana observability
+- Engineered CI/CD pipelines (GitLab CI/CD, GitHub Actions) covering testing, image builds, security scanning, and deployment — cutting manual release effort by ~40%
+- Built out DevSecOps checks with SonarQube, Snyk, Trivy, StackHawk, and JFrog Artifactory
+- Provisioned AWS infra (VPC, IAM, EC2, ECR) with Terraform and Ansible, cutting repetitive setup work by ~90%
+- Ran Kubernetes workloads with Docker, Helm, Argo CD, Ingress, RBAC, HPA/VPA, and StatefulSets, observed via Prometheus and Grafana
+- Worked with self-hosted GitLab runners, CRDs, and Kubernetes Operators to keep cloud-native workloads healthy
 
 ---
 
@@ -114,29 +109,24 @@ Kendriya Vidyalaya, Noida | 2022 – 2023 | 81%
 
 ---
 
-## 🎯 Career Goals
+## 🌟 Fun Facts
 
-**Immediate:** Available for **full-time roles** in DevOps/Cloud Engineering, contributing to real-world infrastructure and DevSecOps challenges from day one.
-
-**Long-term:** Become a cloud architect designing and implementing scalable, secure, cost-effective infrastructure for high-traffic applications.
+- ☁️ I've processed more IoT events than there are people in my hometown
+- 🤖 I automate my breakfast routine... kidding (or am I?)
+- 📚 Currently reading: "How to make friends and influence people" by Dale Carnegie
+- 💭 Favorite quote: "Infrastructure as code is not about the infrastructure, it's about the code."
 
 ---
 
-## 💼 Open to Opportunities
+## 🤝 Let's Collaborate!
 
-Actively open to **full-time roles** in:
-- ⚙️ DevOps Engineering
-- ☁️ Cloud Engineering
-- 🏗️ Site Reliability Engineering (SRE)
-- 🔧 Platform Engineering
-- 🛡️ DevSecOps
+I'm always open to:
+- 💡 Collaborating on open-source cloud/DevOps/DevSecOps projects
+- 🎓 Helping fellow students with AWS, Azure, and Kubernetes
+- 🎤 Speaking at tech meetups or webinars
+- 💬 Discussing cloud architecture and platform engineering
 
-**What I bring:**
-- Real-world experience shipping CI/CD, Kubernetes, and DevSecOps pipelines
-- Hands-on with both AWS and Azure infrastructure automation
-- Strong problem-solving and debugging skills
-- Fast learner with a track record of picking up new tooling quickly
-- Collaborative mindset and clear communication
+Feel free to reach out if you want to build something cool together!
 
 ---
 
@@ -149,27 +139,6 @@ Actively open to **full-time roles** in:
 **📧 Email:** aasthakumari.0105@gmail.com
 **📱 Phone:** +91 8660629127
 **📍 Location:** Bhopal, India
-
----
-
-## 🌟 Fun Facts
-
-- ☁️ I've processed more IoT events than there are people in my hometown
-- 🤖 I automate my breakfast routine... kidding (or am I?)
-- 📚 Currently reading: "The Phoenix Project" by Gene Kim
-- 💭 Favorite quote: "Infrastructure as code is not about the infrastructure, it's about the code."
-
----
-
-## 🤝 Let's Collaborate!
-
-I'm always open to:
-- 💡 Collaborating on open-source cloud/DevOps/DevSecOps projects
-- 🎓 Helping fellow students with AWS, Azure, and Kubernetes
-- 🎤 Speaking at tech meetups or webinars
-- 💬 Discussing cloud architecture and platform engineering best practices
-
-Feel free to reach out if you want to build something cool together!
 
 ---
 
