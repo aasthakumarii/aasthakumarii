@@ -48,16 +48,6 @@ Currently a **DevOps Intern at CloudNexus**, working across CI/CD, DevSecOps, an
 
 ## 🏆 Featured Projects
 
-### [python-eks-gitops](https://github.com/aasthakumarii/python-eks-gitops)
-> A production-style GitOps platform: Flask app → EKS, with automated rollback baked in
-
-- **Tech:** Python, Flask, Terraform, Amazon EKS, Argo CD, GitHub Actions, ECR
-- **Pipeline:** pytest → Bandit SAST → Docker build → Trivy scan → OIDC-authenticated push to ECR → GitOps manifest update → Argo CD sync
-- **Reliability:** Post-deploy health/version checks trigger an automatic Git-based rollback if a release fails verification — no manual `kubectl rollout undo`
-- **Security:** GitHub OIDC (no long-lived AWS keys), least-privilege IAM roles, EKS API locked to a single admin `/32`, hardened pods (non-root, read-only rootfs, dropped capabilities, seccomp)
-- **Exposure:** HTTPS via ALB + Route 53 + ACM, with a wildcard cert and full DNS validation
-- **Cost-aware:** Node group can scale to zero and back up on demand — validated end-to-end
-
 ### [Bazar – Kubernetes GitOps Deployment](https://github.com/aasthakumarii/Bazar_Kubernetes-GitOps-Deployment)
 > A Flask microservices app taken from Docker Compose to a full GitOps deployment
 
@@ -71,6 +61,13 @@ Currently a **DevOps Intern at CloudNexus**, working across CI/CD, DevSecOps, an
 - **Tech:** Docker, Kubernetes, NGINX Ingress, Azure Database for PostgreSQL
 - **Infra:** VNet, AKS, ACR, PostgreSQL, RBAC, Log Analytics — all as reusable Terraform modules
 - **Delivery:** GitHub Actions + Helm, with ACR-integrated versioned images and 1–3 node autoscaling
+
+### [python-eks-gitops](https://github.com/aasthakumarii/python-eks-gitops)
+> A production-style GitOps platform: Flask app → EKS, with automated rollback baked in
+ 
+- **Tech:** Python, Flask, Terraform, Amazon EKS, Argo CD, GitHub Actions, ECR
+- **Pipeline:** pytest → Bandit SAST → Docker build → Trivy scan → OIDC push to ECR → Argo CD sync
+- **Reliability:** Post-deploy health/version checks trigger an automatic Git-based rollback on failed verification, with pods hardened (non-root, read-only rootfs, seccomp) and EKS access locked to a single admin `/32`
 
 ### [UAV-Assisted Crowd Monitoring System](https://github.com/aasthakumarii/uav-crowd-monitoring)
 > Serverless pipeline for processing real-time drone telemetry
